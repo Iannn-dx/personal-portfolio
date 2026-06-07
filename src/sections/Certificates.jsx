@@ -15,6 +15,11 @@ const certificateGroups = [
         subtitle: "Cagayan State University",
         year: "2026",
       },
+      {
+        title: "Best Capstone Project",
+        subtitle: "Cagayan State University",
+        year: "2026",
+      },
     ],
   },
   {
@@ -33,22 +38,17 @@ const certificateGroups = [
     icon: Award,
     items: [
       {
-        title: "Academic Awardee",
-        subtitle: "Cagayan State University",
-        year: "2026",
-      },
-      {
-        title: "Best Capstone Project",
-        subtitle: "Cagayan State University",
-        year: "2026",
-      },
-      {
         title: "Certificate of Commendation — Recognition for developing the OCD II Daily Report and Duty Checklist System during internship.",
         subtitle: "Office of Civil Defense Region II",
         year: "2026",
       },
       {
         title: "Certificate of Commendation — For outstanding performance during internship/OJT",
+        subtitle: "Office of Civil Defense Region II",
+        year: "2026",
+      },
+      {
+        title: "Certificate of Completion – Disaster Risk Reduction and Management (DRRM) Course for the BasicSector (Youth)",
         subtitle: "Office of Civil Defense Region II",
         year: "2026",
       },

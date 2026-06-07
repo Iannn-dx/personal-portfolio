@@ -2,8 +2,11 @@ import { Button } from "@/components/Button";
 import { ProfileCard } from "@/components/ProfileCard";
 import { MapPin } from "lucide-react";
 
-const CV_PATH = "/teves-resume.pdf";
-const CV_FILENAME = "teves-resume.pdf";
+const baseUrl = import.meta.env.BASE_URL.endsWith("/")
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+const CV_PATH = `${baseUrl}teves-resume.pdf`;
+const CV_FILENAME = "Ian-Khristopher-Teves-Resume.pdf";
 
 export const Home = () => {
 
