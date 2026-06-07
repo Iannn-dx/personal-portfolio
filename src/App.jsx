@@ -1,4 +1,5 @@
 import { Navbar } from "@/layout/Navbar";
+import { Footer } from "@/layout/Footer";
 import { Home } from "@/sections/Home";
 import { About } from "@/sections/About";
 import {Projects} from "@/sections/Projects";
@@ -14,6 +15,7 @@ function App() {
         <Projects />
         <Certificates />
       </main>
+      <Footer />
     </div>
   )
 }

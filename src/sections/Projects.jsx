@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Membership Profiling and Payment Tracking System",
     description:
-      "A full-stack web platform where students can list, browse, and manage second-hand items within the university community.",
+      "A full-stack gym management system where owners can manage memberships, payments, promos, and discounts, while members can book trainers, renew plans, and update their membership through their account.",
     tags: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
     liveUrl: "#",
     githubUrl: "#",
@@ -17,7 +17,7 @@ const projects = [
   {
     title: "OCD II Daily Administrative and Operational Report and Duty Checklist System",
     description:
-      "Digital attendance system with role-based dashboards for instructors and students, plus exportable reports.",
+      "A web-based system for OCD II that manages daily administrative and operational reports and duty checklists. It allows staff to submit, track, and review reports, ensuring tasks are completed, monitored, and properly documented in an organized and efficient way.",
     tags: ["PHP", "MySQL", "Bootstrap", "Javascript"],
     liveUrl: "#",
     githubUrl: "#",

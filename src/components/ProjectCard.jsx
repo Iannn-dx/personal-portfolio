@@ -70,11 +70,11 @@ export const ProjectCard = ({
                 rel="noreferrer"
                 className="inline-flex items-center gap-1.5 text-sm font-medium text-primary"
               >
-                Live demo
+                View Github
                 <ArrowUpRight size={14} />
               </a>
             )}
-            {githubUrl && (
+            {/* {githubUrl && (
               <a
                 href={githubUrl}
                 target="_blank"
@@ -84,7 +84,7 @@ export const ProjectCard = ({
                 <Code2 size={14} />
                 Code
               </a>
-            )}
+            )} */}
           </div>
         </div>
       </div>

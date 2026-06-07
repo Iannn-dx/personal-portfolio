@@ -77,10 +77,7 @@ export const About = () => {
                 About Me
               </p>
               <p className="text-muted-foreground leading-relaxed max-w-2xl">
-                I&apos;m an aspiring web developer focused on building responsive,
-                user-friendly applications. I enjoy turning ideas into clean digital
-                experiences using Laravel, PHP, MySQL, and modern frontend tools —
-                always learning, always refining.
+                I’m an aspiring web developer who builds responsive and easy-to-use web apps. I like turning ideas into simple, clean websites using Laravel, PHP, MySQL, and frontend tools while always learning and improving.
               </p>
             </BentoCard>
 
@@ -136,6 +133,9 @@ export const About = () => {
                   <p className="text-sm text-muted-foreground mt-1">
                     Cagayan State University — 2026 <br />
                     Academic Distinction
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    GWA: 92.13
                   </p>
                 </div>
               </div>

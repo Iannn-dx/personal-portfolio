@@ -2,6 +2,9 @@ import { Button } from "@/components/Button";
 import { ProfileCard } from "@/components/ProfileCard";
 import { MapPin } from "lucide-react";
 
+const CV_PATH = "/teves-resume.pdf";
+const CV_FILENAME = "teves-resume.pdf";
+
 export const Home = () => {
 
   return (
@@ -24,17 +27,19 @@ export const Home = () => {
             </p>
 
             <p className="text-muted-foreground max-w-sm">
-              Passionate about building responsive and user-friendly web applications
-              using Laravel, PHP, MySQL, JavaScript, and modern web technologies.
-              I enjoy turning ideas into functional digital solutions while
-              continuously improving my development skills.
+              I build simple, responsive web apps using Laravel, PHP, MySQL, and JavaScript. I like turning ideas into working websites and improving my skills.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-1">
               <a href="#projects">
                 <Button>View Projects</Button>
               </a>
-              <Button variant="outline" size="sm">
+              <Button
+                href={CV_PATH}
+                download={CV_FILENAME}
+                variant="outline"
+                size="sm"
+              >
                 Download CV
               </Button>
             </div>

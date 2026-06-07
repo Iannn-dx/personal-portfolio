@@ -1,6 +1,14 @@
-export const Button = ({ className = "", size = "default", variant = "primary", children }) => {
+export const Button = ({
+  className = "",
+  size = "default",
+  variant = "primary",
+  href,
+  download,
+  children,
+  ...props
+}) => {
   const baseClasses =
-    "relative overflow-hidden rounded-full font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-primary";
+    "relative overflow-hidden rounded-full font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-primary inline-flex items-center justify-center";
 
   const variantClasses = {
     primary:
@@ -16,10 +24,21 @@ export const Button = ({ className = "", size = "default", variant = "primary", 
   };
 
   const classes = `${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
+  const content = (
+    <span className="relative flex items-center justify-center gap-2">{children}</span>
+  );
+
+  if (href) {
+    return (
+      <a href={href} download={download} className={classes} {...props}>
+        {content}
+      </a>
+    );
+  }
 
   return (
-    <button className={classes}>
-      <span className="relative flex items-center justify-center gap-2">{children}</span>
+    <button type="button" className={classes} {...props}>
+      {content}
     </button>
   );
 };
