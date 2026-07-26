@@ -31,12 +31,37 @@ const certificateGroups = [
         subtitle: "Cagayan State University",
         year: "2026",
       },
+      {
+        title: "Microsoft Productivity Tools",
+        subtitle: "Cagayan State University",
+        year: "2026",
+      },
+      {
+        title: "IT Customer Support",
+        subtitle: "DICT-ITU DTC Initiative / Cisco Networking Academy",
+        year: "2026",
+      },
+      {
+        title: "Cybersecurity Fundamentals",
+        subtitle: "Cisco Networking Academy / DICT-ITU DTC Initiative",
+        year: "2026",
+      },
+      {
+        title: "Disaster Risk Reduction and Management Awareness",
+        subtitle: "Office of Civil Defense Region II",
+        year: "2026",
+      },
     ],
   },
   {
     category: "Awards",
     icon: Award,
     items: [
+      {
+        title: "Career Service Professional Eligibility (CSC)",
+        subtitle: "Professional Level",
+        year: "2025",
+      },
       {
         title: "Certificate of Commendation — Recognition for developing the OCD II Daily Report and Duty Checklist System during internship.",
         subtitle: "Office of Civil Defense Region II",
@@ -50,6 +75,16 @@ const certificateGroups = [
       {
         title: "Certificate of Completion – Disaster Risk Reduction and Management (DRRM) Course for the BasicSector (Youth)",
         subtitle: "Office of Civil Defense Region II",
+        year: "2026",
+      },
+      {
+        title: "Introduction to Cybersecurity – Cisco Networking Academy",
+        subtitle: "DICT-ITU DTC Initiative (202G)",
+        year: "2026",
+      },
+      {
+        title: " IT Customer Support Basics",
+        subtitle: "DICT-ITU DTC Initiative (Cisco Networking Academy)",
         year: "2026",
       },
     ],
