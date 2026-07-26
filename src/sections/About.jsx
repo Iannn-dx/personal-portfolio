@@ -23,6 +23,7 @@ const skillGroups = [
     skills: [
       { name: "PHP", color: "#777BB4" },
       { name: "Laravel", color: "#FF2D20" },
+      { name: "Rest API", color: "#2563EB" },
     ],
   },
   {
